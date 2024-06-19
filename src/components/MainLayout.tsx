@@ -10,7 +10,7 @@ interface MainLayoutProps {
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center p-12 md:p-24 ${inter.className}`}
     >
       {children}
     </main>
